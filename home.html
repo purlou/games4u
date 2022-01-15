@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Games4U</title>
+    <link rel="icon" href="/assets/images/favicon.png" type="image/png" sizes="16x16">
+
+
+
+    <link href="style.css" rel="stylesheet" type="text/css" /> 
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffaa1d;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: ;
+  color: black;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+h1.dotted {border-style: double;}
+
+.welcome {border-style: double;}
+.welcomeText{border-style: inset;}
+
+.gamesList1 {border-style: inset;}
+
+.footer {border-style: inset;}
+</style>
+
+
+    </div>
+
+
+  </head>
+  <body>
+
+<div class="topnav">
+  <h3 class="name", style="font-size: 25px">Games4U</h3>
+  <a class="active" href="home.html">Games4U</a>
+  <a href="about.html">About</a>
+  <a href="gfile.html">Games</a>
+  <a href="emulators.html">Emulators</a>
+  <a href="other.html">Tools</a>
+  </div>
+</div>
+
+<div style="padding-left:16px">
+<style>
+  .name {text-align: center;}
+  .name {border: 8px solid black;}
+  .name {border-style: dotted;}
+  h1 {text-align: center;}
+</style>
+
+
+
+<section class="textInWelcome">
+  <h2 class="welcome", style="font-size:30px">Welcome To Games4U!</h2>
+
+
+
+<section>
+  <h2 class="welcomeText", style="font-size:25px">Do you have free time and want to have fun? Maybe you finished all the tasks? So, it's time to amuse you! There is only one small problem, that all kinds of online entertainment can be banned or blocked, including games. Relax, we have a solution! You can play Games4U! We have all kinds of games!<h2>
+
+
+
+<section class='gamesList1'>
+<h2 class="gamesList", style="font-size:25px">Games Include:</h2>
+
+<ul id="gamesList">
+  <li>2048</li>
+  <li>astray</li>
+  <li>breaklock</li>
+  <li>cookieClicker</li>
+  <li>flappybird</li>
+  <li>hextris</li>
+  <li>pacman</li>
+  <li>and MORE!</li>
+</ul>
+</section>
+</section>
+</section>
+
+
+
+
+<style>
+.textInWelcome {text-align: center;}
+.welcomeText {text-align: center;}
+
+
+</style>
+
+
+
+<section>
+  <img class="mySlides" src="/assets/images/aron-visuals-LSFuPFE9vKE-unsplash.jpg" style="width:100%">
+  <img class="mySlides" src="/assets/images/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg" style="width:100%">
+  <img class="mySlides" src="/assets/images/mado-el-khouly-MA8YoAoKpfY-unsplash.jpg" style="width:100%">
+</section>
+
+
+<footer class="footer">
+  <a href="https://github.com/revivalr", style="font-size:30px"><i class="fa fa-github"></i></a>
+  <p class="medium">
+  Powered by <a href="https://replit.com/" target="_blank">Replit.com</a>
+  </p>
+   <p class="medium">
+     Created by <a href="https://github.com/Arbeiter617?tab=repositories" target="_blank">prgrammerG1</a> and <a href="" target="_blank">Rockpods</a>!
+     </p>
+</footer>
+
+
+<style>
+   .footer {text-align: center;}
+</style>
+
+
+
+
+ <script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+
+
+
+    <div id='searchBar'></div>
+    <script src="script.js"></script>
+  </body>
+</html>

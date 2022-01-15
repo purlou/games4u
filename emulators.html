@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Games4U - Emulators</title>
+    <link rel="icon" href="/assets/images/favicon.png" type="image/png" sizes="16x16">
+    <link href="gfile.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="search.css" rel="stylesheet" type="text/css" />
+
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffaa1d;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: ;
+  color: black;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+
+
+  h1.dotted {border-style: double;}
+
+
+  .dotted {text-align: center;}
+  .em {text-align: center;}
+
+</style>
+
+
+<div id="back">
+<a href="home.html" id="backlink">
+<img src="/assets/images/back.png" alt="Home" id="backimg"></a>
+<style>
+#backimg {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  object-fit: scale-down;
+}
+#backlink {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  object-fit: scale-down;
+  background-color: ;
+  color: none;
+}
+</style>
+    </div>
+
+
+
+
+  </head>
+  <body>
+<div class="topnav">
+  <h3 class="name", style="font-size: 25px">Games4U</h3>
+  <a class="active" href="home.html">Games4U</a>
+  <a href="about.html">About</a>
+  <a href="gfile.html">Games</a>
+   <a href="emulators.html">Emulators</a>
+   <a href="other.html">Tools</a>
+  <div class="search-container">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search through emulators.." title="Type in a name">
+    </form>
+  </div>
+</div>
+
+<div style="padding-left:16px">
+ 
+</div>
+
+<article id="emulator">
+<center>
+     <h1 class="dotted", style="font-size:30px;">Emulators</h1></br>
+
+<ul id="myUL">
+   <li><div class="container">
+    <div class="image">
+      <img src="/assets/images/nes.jpeg">
+    </div>
+    <div class="text">
+      <a href="/gfiles/emulators/nes/index.html">NES Emu<w>lato<w>r</a></li></br>
+    </div>
+  </div>
+
+
+  <li><div class="container">
+    <div class="image">
+      <img src="/assets/images/snes.png">
+    </div>
+    <div class="text">
+      <a href="/gfiles/emulators/snes/index.html">SNES E<w>mul<w>ato<w>r</a></li></br>
+    </div>
+  </div>
+
+  <li><div class="container">
+    <div class="image">
+      <img src="/assets/images/GBA.png">
+    </div>
+    <div class="text">
+      <a href="/gfiles/emulators/gba/index.html">GBA Em<w>ula<w>tor</a><li></br>
+    </div>
+  </div>
+
+<style>
+    .container {
+  display: flex;
+   align-items: center;
+  justify-content: center
+}
+
+img {
+  height: 60px;
+ width: 60px;
+ text-align: center;
+  
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 5px;
+  text-align: center;
+}
+
+
+  .name {border: 8px solid black;}
+  .name {border-style: dotted;}
+.name {text-align: center;}
+
+  </style>
+
+
+
+
+
+</center>
+</article>
+
+
+
+
+    <div id='searchBar'></div>
+    <script src="search.js"></script>
+  </body>

@@ -1,0 +1,25 @@
+body { 
+  background-image: linear-gradient(to bottom right, red, blue);
+  background-repeat: no-repeat;
+  width: 100%;
+  length: 100%;
+  background-size:full;
+  background-attachment: fixed;
+}
+/*background image*/
+a:link, a:visited {
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: chartreuse;
+}
+/*Makes link color yellow*/
+Ul {
+list-style-type: none;
+}
+/* Removes bullet from lists unorderdered lists(Ones without numbers) or ul*/
